@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        :root {
+            --black: 900;
+            --semiBold: 600;
+            --blue: #0a2ff1;
+        }
+
+        .containerFlyer {
+            text-align: center;
+            height: 100vh;
+        }
+
+        .firstText {
+            display: flex;
+            height: 15%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            font-weight: var(--black);
+            font-size: 50pt;
+            color: var(--blue);
+        }
+
+        .secondText {
+            display: flex;
+            margin: auto;
+            height: 18%;
+            align-items: center;
+            justify-content: center;
+            font-weight: var(--black);
+            background-color: black;
+            color: white;
+            font-size: 148pt;
+        }
+
+        .thirdText {
+            display: flex;
+            margin: auto;
+            height: 37%;
+            align-items: center;
+            justify-content: center;
+            font-weight: var(--black);
+            font-size: 163pt;
+        }
+
+        .fourthText {
+            display: flex;
+            margin: auto;
+            height: 10%;
+            align-items: center;
+            justify-content: center;
+            color: var(--blue);
+            font-weight: var(--semiBold);
+            font-size: 45pt;
+        }
+
+        .fifthText {
+            display: flex;
+            margin: auto;
+            height: 10%;
+            align-items: center;
+            color: var(--blue);
+            justify-content: center;
+            font-weight: var(--semiBold);
+            font-size: 45pt;
+        }
+
+        #strong {
+            font-weight: var(--black);
+            color: var(--blue);
+            font-size: 45pt;
+            margin-right: 10px;
+        }
+
+        #strong2 {
+            background-color: black;
+            color: white;
+            font-weight: var(--blue);
+            font-size: 45pt;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="containerFlyer">
+        <h3 class="firstText">23 NOVIEMBRE</h3>
+        <h2 class="secondText">BLACK</h2>
+        <h1 class="thirdText">FRIDAY</h1>
+        <p class="fourthText"><strong id="strong">DESCUENTOS</strong> HASTA EL <strong id="strong2"> 50% </strong></p>
+        <h5 class="fifthText">¡NO TE LO PIERDAS!</h5>
+    </section>
+</body>
+
+</html>
